@@ -1,0 +1,412 @@
+.principal{
+    background: #F3F5FC;
+}
+
+
+.imagen-logo{
+    position: absolute;
+    width: 31.09px;
+    height: 48px;
+    left: 84px;
+    top: 6.25%;
+}
+
+.input-texto{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    background: transparent;
+    border: 0px;
+    color: #0A3871;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+#texto::placeholder{
+
+    font-family: 'Arial';
+    font-style:normal;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #0A3871;
+
+}
+
+.input-padron{
+    position: absolute;
+    width: 350px;
+    height: 600px;
+    border-radius: 23px;
+    left: 955px;
+    top: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+    margin: 1px 1px 1px 1px;
+    
+}
+
+.imagen-muñeco{
+    position: absolute;
+    width: 220px;
+    height: 200px;
+    left: 1017px;
+    top: 150px;
+    
+}
+
+.mensaje-centrado{
+
+    position: absolute;
+    width: 336px;
+    height: 58px;
+    top: 335px;
+    left: 968px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 120%;
+
+    text-align: center;
+
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+
+
+}
+
+
+#boton-copiar{
+    align-items: flex-start;
+    padding: 24px;
+
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    left: 970px;
+    top: 527px;
+
+    line-height: 20px;
+    background: #FFFFFF;
+    color:#0A3871;
+    
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    
+}
+
+#mensaje::placeholder{
+    position: relative;
+    width: 320px;
+    height: 48px;
+    left: 17px;
+    top: 390px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+     
+    text-align: center;
+     
+    color: #495057;
+      
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+       
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 150px;
+    top: 530px;
+
+    
+}
+
+#boton-encriptar{
+
+    align-items: flex-start;
+    padding: 24px;
+
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 300px;
+
+    background: #0A3871;
+    border-radius: 24px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+}
+
+#boton-desencriptar{
+
+    align-items: flex-start;
+    padding: 24px;
+
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+
+    background: #D8DFE8;
+
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+
+    color: #0A3871;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+}
+
+#advertencia{
+
+    position: relative;
+    width: 205px;
+    height: 18px;
+    left: 190px;
+    top: 510px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    color: #495057;
+
+    opacity: 0.8;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: -5px 12px;
+
+}
+
+footer{
+    position: relative;
+    top: 615px;
+    font-family: "cursive";
+    font-style:italic;
+    font-size: 20px;
+    color: #20B2AA;
+    text-align: center;
+    background:#495057;
+    margin: 1% 0 0 0;
+
+
+}
+
+@media screen and (max-width:820px){
+
+    .input-texto{
+        
+        width: 660px;
+        height: 48px;
+        left: 40px;
+        top: 200px;
+    }
+
+    #texto::placeholder{
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-size: 37px;
+        font-weight: 600;
+        color: #0A3871;
+           
+    }
+
+    #advertencia{
+    
+        width: 205px;
+        height: 18px;
+        left: 40px;
+        top: 680px;    
+    }
+
+    .botones{
+   
+        width: 680px;
+        height: 67px;
+        left: 18px;
+        top: 700px;
+       
+    }
+    
+    .input-padron{
+
+        width: 690px;
+        height: 190px;
+        left: 44px;
+        top: 800px; 
+        
+    }
+
+    #mensaje::placeholder{
+        
+        width: 350px;
+        height: 48px;
+        left: 180px;
+        top: 110px;
+               
+    }
+ 
+    .imagen-muñeco{
+        display: none;
+    }
+
+    .mensaje-centrado{
+
+        left: 240px;
+        top: 840px;
+        font-size: 24px;
+    }
+
+    #boton-copiar{
+
+        width: 624px;
+        height: 67px;
+        left: 82px;
+        top: 920px;
+    }
+
+}
+
+@media screen and (max-width:414px){
+
+    .input-texto{
+        
+        width: 660px;
+        height: 48px;
+        left: 40px;
+        top: 200px;
+    }
+
+    #texto::placeholder{
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-size: 40px;
+        font-weight: 600;
+        color: #0A3871;
+        top: 0px;
+
+    }
+
+    #advertencia{
+    
+        width: 300px;
+        height: 18px;
+        left: 35px;
+        top: 860px;
+        font-size: 18px;
+        font-weight: 800;    
+    }
+
+    #boton-encriptar{
+    
+        position: relative;
+        width: 645px;
+        height: 100px;
+        left: -10px;
+        top: 200px;
+        font-size: 18px;
+        font-weight: 800;
+    
+    }
+    
+    #boton-desencriptar{
+            
+        position: relative;
+        width: 645px;
+        height: 100px;
+        left: -700px;
+        top: 350px;
+        font-size: 18px;
+        font-weight: 800;
+           
+    }
+
+    .input-padron{
+
+        width: 645px;
+        height: 250px;
+        left: 27px;
+        top: 1190px; 
+        
+    }
+
+    #mensaje::placeholder{
+        
+        width: 340px;
+        height: 48px;
+        left: 160px;
+        top: 140px;
+        font-size: 30px;
+               
+    }
+ 
+    .imagen-muñeco{
+        display: none;
+    }
+
+    .mensaje-centrado{
+
+        left: 190px;
+        top: 1230px;
+        font-size: 35px;
+    }
+
+    #boton-copiar{
+
+        width: 550px;
+        height: 100px;
+        left: 74px;
+        top: 1365px;
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+}
